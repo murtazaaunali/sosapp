@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'xicons';
+  src:  url('fonts/xicons.eot?8do3fu');
+  src:  url('fonts/xicons.eot?8do3fu#iefix') format('embedded-opentype'),
+    url('fonts/xicons.ttf?8do3fu') format('truetype'),
+    url('fonts/xicons.woff?8do3fu') format('woff'),
+    url('fonts/xicons.svg?8do3fu#xicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="x-"], [class*=" x-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'xicons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.x-users:before {
+  content: "\e91e";
+}
+.x-user-plus:before {
+  content: "\e91f";
+}
+.x-user:before {
+  content: "\e920";
+}
+.x-cross:before {
+  content: "\e917";
+}
+.x-anchor:before {
+  content: "\e901";
+}
+.x-client-pre:before {
+  content: "\e902";
+}
+.x-demographics:before {
+  content: "\e904";
+}
+.x-documents:before {
+  content: "\e905";
+}
+.x-insurance:before {
+  content: "\e906";
+}
+.x-reports:before {
+  content: "\e907";
+}
+.x-schedule:before {
+  content: "\e916";
+}
+.x-trainings:before {
+  content: "\e91c";
+}
+.x-check-mark:before {
+  content: "\e918";
+}
+.x-dashboard:before {
+  content: "\e919";
+}
+.x-plus:before {
+  content: "\e91a";
+}
+.x-task:before {
+  content: "\e91b";
+}
+.x-eye:before {
+  content: "\e91d";
+}
+.x-arrow-left:before {
+  content: "\e90b";
+}
+.x-arrow-right:before {
+  content: "\e914";
+}
+.x-arrow-up:before {
+  content: "\e915";
+}
+.x-pdf:before {
+  content: "\e903";
+}
+.x-arrow-down:before {
+  content: "\e913";
+}
+.x-cloud:before {
+  content: "\e910";
+}
+.x-pencil:before {
+  content: "\e911";
+}
+.x-upload:before {
+  content: "\e912";
+}
+.x-doc:before {
+  content: "\e90a";
+}
+.x-play:before {
+  content: "\e90c";
+}
+.x-ppt:before {
+  content: "\e90d";
+}
+.x-round:before {
+  content: "\e90e";
+}
+.x-xlsx:before {
+  content: "\e90f";
+}
+.x-messages:before {
+  content: "\e900";
+}
+.x-envelope:before {
+  content: "\e908";
+}
+.x-alarm:before {
+  content: "\e909";
+}

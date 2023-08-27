@@ -1,0 +1,27 @@
+.per-width(100);
+.per-width(@n, @i: 1) when (@i =< @n) {
+  .wd-per@{i} {
+    width: (@i * 1%);
+  }
+  .per-width(@n, (@i + 1));
+}
+
+.px-width(100);
+.px-width(@n, @i: 1) when (@i =< @n) {
+  .wd-px@{i} {
+    width: (@i * 10px);
+  }
+  .px-width(@n, (@i + 1));
+}
+
+.ellipsis{white-space:pre;overflow:hidden;text-overflow:ellipsis;}
+.noEllipsis{text-overflow:initial;overflow:visible;white-space:initial;}
+.clearafter{&:after{content:"";display:table;clear:both;}}
+.icocenter{content:"";height:100%;display:inline-block;vertical-align:middle;}
+.fxdcenter(@pos){position:@pos;left:0;right:0;top:0;bottom:0;margin:auto;}
+.para(@color,@font-size,@margin:0,@padding:0){color:@color;font-size:@font-size;/*line-height:(@font-size+1);*/line-height:(@font-size - 1);margin:@margin;padding:@padding;}
+.trans(@speed:.2s) when (@speed = 0){transition:initial;-o-transition:initial;-ms-transition:initial;-moz-transition:initial;-webkit-transition:initial;}
+.trans(@speed:.2s) when (@speed > 0){transition:all @speed ease-in-out;-o-transition:all @speed ease-in-out;-ms-transition:all @speed ease-in-out;-moz-transition:all @speed ease-in-out;-webkit-transition:all @speed ease-in-out;}
+.placeholder(@a){&:-moz-placeholder{color:@a;opacity:1;}&::-moz-placeholder{color:@a;opacity:1;}&:-ms-input-placeholder{color:@a;opacity:1;}&::-webkit-input-placeholder{color:@a;opacity:1;}}
+/*.fade{animation-duration:0.3s;animation-fill-mode:both;animation-name:submenu_anim;}*/
+.fade(@s:0.3) when (@s > 0){animation-duration:@ss;animation-fill-mode:both;animation-name:submenu_anim;}

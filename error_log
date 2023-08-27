@@ -1,0 +1,2 @@
+[14-Nov-2018 16:42:47 UTC] PHP Fatal error:  Out of memory (allocated 444579840) (tried to allocate 7057725 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/Util/RemoteFilesystem.php on line 451
+[15-Nov-2018 15:56:11 UTC] PHP Fatal error:  Out of memory (allocated 444579840) (tried to allocate 7057850 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/Util/RemoteFilesystem.php on line 451
